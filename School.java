@@ -20,7 +20,7 @@ public class School {
     }
 
     public static void updateTotal_money_spent(int money) {
-        totalMoneyEarned = totalMoneyEarned - money;
+        totalMoneyEarned += money;
     }
 
     public static int getTotalMoneyEarned() {
